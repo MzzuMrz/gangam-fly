@@ -1,0 +1,37 @@
+{
+  "episodes": [
+    {
+      "id": "20260909T233036-8b730eef",
+      "mode": "observe",
+      "score": 0.19895740320017644,
+      "seconds": 2.0,
+      "changed_edges": 0,
+      "reason": "complete",
+      "wall_seconds": 19.158772583003156,
+      "realtime_factor": 0.10495332900532531
+    },
+    {
+      "id": "20260909T233055-7a08898c",
+      "mode": "train",
+      "score": 0.5460507408128822,
+      "seconds": 2.0,
+      "changed_edges": 5987,
+      "reason": "complete",
+      "wall_seconds": 17.08389520898345,
+      "realtime_factor": 0.1175820339524839
+    },
+    {
+      "id": "20260909T233112-b1a4773c",
+      "mode": "observe",
+      "score": 0.48815955627841734,
+      "seconds": 2.0,
+      "changed_edges": 5987,
+      "reason": "complete",
+      "wall_seconds": 13.648706084000878,
+      "realtime_factor": 0.14787130844776866
+    }
+  ],
+  "peak_rss_bytes": 1277198336,
+  "interpretation": "Changed weights do not establish learned dancing. Compare frozen evaluations; single-seed pilot only.",
+  "frozen_score_delta": 0.28920215307824093
+}

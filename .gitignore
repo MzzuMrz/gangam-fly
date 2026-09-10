@@ -1,0 +1,15 @@
+.venv/
+vendor/
+episodes/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+node_modules/
+web/dist/
+.cache/
+web/test-results/
+web/playwright-report/

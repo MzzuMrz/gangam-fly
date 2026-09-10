@@ -1,0 +1,4581 @@
+{
+  "motor_interpretation": "Muscle names are anatomical annotations. MJCF joint axes/signs/gains and antagonistic pairing are provisional; not a measured neuromuscular mapping.",
+  "sensory_interpretation": "Anatomical sensory cells; artificial opponent tuning by sorted ID and engineered current gains.",
+  "motor": [
+    {
+      "actuator": "coxa_abduct_T1_left",
+      "positive": [
+        {
+          "id": "802509",
+          "index": 146189,
+          "type": "Pleural remotor/abductor MN"
+        },
+        {
+          "id": "803803",
+          "index": 147184,
+          "type": "Pleural remotor/abductor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "813480",
+          "index": 155103,
+          "type": "Sternal adductor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_twist_T1_left",
+      "positive": [
+        {
+          "id": "806923",
+          "index": 149751,
+          "type": "Sternal anterior rotator MN"
+        },
+        {
+          "id": "919509",
+          "index": 164051,
+          "type": "Sternal anterior rotator MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "801915",
+          "index": 145754,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "804851",
+          "index": 148030,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "808640",
+          "index": 151185,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "1050335829",
+          "index": 166268,
+          "type": "Sternal posterior rotator MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_T1_left",
+      "positive": [
+        {
+          "id": "801685",
+          "index": 145581,
+          "type": "Sternotrochanter MN"
+        },
+        {
+          "id": "802361",
+          "index": 146070,
+          "type": "Sternotrochanter MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "802552",
+          "index": 146219,
+          "type": "Tergotr. MN"
+        },
+        {
+          "id": "803237",
+          "index": 146749,
+          "type": "Tergotr. MN"
+        },
+        {
+          "id": "804465",
+          "index": 147722,
+          "type": "Tergotr. MN"
+        },
+        {
+          "id": "805741",
+          "index": 148760,
+          "type": "Tergotr. MN"
+        }
+      ]
+    },
+    {
+      "actuator": "femur_T1_left",
+      "positive": [
+        {
+          "id": "803412",
+          "index": 146883,
+          "type": "Tr extensor MN"
+        },
+        {
+          "id": "807906",
+          "index": 150573,
+          "type": "Tr extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "810639",
+          "index": 152838,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "814489",
+          "index": 155890,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "818389",
+          "index": 158431,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "823168",
+          "index": 159666,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "823281",
+          "index": 159682,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "828939",
+          "index": 160040,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "1051367796",
+          "index": 166367,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "1051670893",
+          "index": 166379,
+          "type": "Tr flexor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "tibia_T1_left",
+      "positive": [
+        {
+          "id": "800636",
+          "index": 144791,
+          "type": "Ti extensor MN"
+        },
+        {
+          "id": "815344",
+          "index": 156522,
+          "type": "Ti extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "807165",
+          "index": 149945,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "809912",
+          "index": 152254,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "818057",
+          "index": 158272,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "819384",
+          "index": 158866,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "909831",
+          "index": 163055,
+          "type": "Ti flexor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_abduct_T1_right",
+      "positive": [
+        {
+          "id": "803314",
+          "index": 146810,
+          "type": "Pleural remotor/abductor MN"
+        },
+        {
+          "id": "805313",
+          "index": 148400,
+          "type": "Pleural remotor/abductor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "815854",
+          "index": 156892,
+          "type": "Sternal adductor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_twist_T1_right",
+      "positive": [
+        {
+          "id": "801469",
+          "index": 145416,
+          "type": "Sternal anterior rotator MN"
+        },
+        {
+          "id": "801918",
+          "index": 145757,
+          "type": "Sternal anterior rotator MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "805410",
+          "index": 148483,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "808011",
+          "index": 150669,
+          "type": "Sternal posterior rotator MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_T1_right",
+      "positive": [
+        {
+          "id": "801079",
+          "index": 145113,
+          "type": "Sternotrochanter MN"
+        },
+        {
+          "id": "803698",
+          "index": 147100,
+          "type": "Sternotrochanter MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "804866",
+          "index": 148043,
+          "type": "Tergotr. MN"
+        },
+        {
+          "id": "817347",
+          "index": 157846,
+          "type": "Tergotr. MN"
+        },
+        {
+          "id": "909521",
+          "index": 162953,
+          "type": "Tergotr. MN"
+        },
+        {
+          "id": "924716",
+          "index": 164159,
+          "type": "Tergotr. MN"
+        }
+      ]
+    },
+    {
+      "actuator": "femur_T1_right",
+      "positive": [
+        {
+          "id": "818842",
+          "index": 158653,
+          "type": "Tr extensor MN"
+        },
+        {
+          "id": "838321",
+          "index": 160243,
+          "type": "Tr extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "816648",
+          "index": 157419,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "817640",
+          "index": 158036,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "818719",
+          "index": 158596,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "820130",
+          "index": 159113,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "820668",
+          "index": 159251,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "903010",
+          "index": 160813,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "914655",
+          "index": 163913,
+          "type": "Tr flexor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "tibia_T1_right",
+      "positive": [
+        {
+          "id": "804257",
+          "index": 147555,
+          "type": "Ti extensor MN"
+        },
+        {
+          "id": "815678",
+          "index": 156756,
+          "type": "Ti extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "810098",
+          "index": 152406,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "821635",
+          "index": 159461,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "827188",
+          "index": 159957,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "1050031705",
+          "index": 166192,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "1050189039",
+          "index": 166237,
+          "type": "Ti flexor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_abduct_T2_left",
+      "positive": [
+        {
+          "id": "800541",
+          "index": 144721,
+          "type": "Pleural remotor/abductor MN"
+        },
+        {
+          "id": "902492",
+          "index": 160670,
+          "type": "Pleural remotor/abductor MN"
+        },
+        {
+          "id": "905421",
+          "index": 161657,
+          "type": "Pleural remotor/abductor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "816018",
+          "index": 157009,
+          "type": "Sternal adductor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_twist_T2_left",
+      "positive": [
+        {
+          "id": "832490",
+          "index": 160175,
+          "type": "Sternal anterior rotator MN"
+        },
+        {
+          "id": "903689",
+          "index": 161074,
+          "type": "Sternal anterior rotator MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "801768",
+          "index": 145643,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "803226",
+          "index": 146739,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "803704",
+          "index": 147105,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "1051054875",
+          "index": 166340,
+          "type": "Sternal posterior rotator MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_T2_left",
+      "positive": [
+        {
+          "id": "802407",
+          "index": 146110,
+          "type": "Sternotrochanter MN"
+        },
+        {
+          "id": "904657",
+          "index": 161364,
+          "type": "Sternotrochanter MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "813755",
+          "index": 155324,
+          "type": "Tergotr. MN"
+        }
+      ]
+    },
+    {
+      "actuator": "femur_T2_left",
+      "positive": [
+        {
+          "id": "805477",
+          "index": 148538,
+          "type": "Tr extensor MN"
+        },
+        {
+          "id": "909078",
+          "index": 162777,
+          "type": "Tr extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "800589",
+          "index": 144763,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "802232",
+          "index": 145982,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "803829",
+          "index": 147204,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "903158",
+          "index": 160871,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "903159",
+          "index": 160872,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "903579",
+          "index": 161039,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "1050669248",
+          "index": 166308,
+          "type": "Tr flexor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "tibia_T2_left",
+      "positive": [
+        {
+          "id": "800911",
+          "index": 144996,
+          "type": "Ti extensor MN"
+        },
+        {
+          "id": "801234",
+          "index": 145232,
+          "type": "Ti extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "802295",
+          "index": 146026,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "818295",
+          "index": 158385,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "823739",
+          "index": 159714,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "824041",
+          "index": 159737,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "927808",
+          "index": 164248,
+          "type": "Ti flexor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_abduct_T2_right",
+      "positive": [
+        {
+          "id": "800776",
+          "index": 144894,
+          "type": "Pleural remotor/abductor MN"
+        },
+        {
+          "id": "803499",
+          "index": 146948,
+          "type": "Pleural remotor/abductor MN"
+        },
+        {
+          "id": "902719",
+          "index": 160740,
+          "type": "Pleural remotor/abductor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "909371",
+          "index": 162896,
+          "type": "Sternal adductor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_twist_T2_right",
+      "positive": [
+        {
+          "id": "801813",
+          "index": 145681,
+          "type": "Sternal anterior rotator MN"
+        },
+        {
+          "id": "801946",
+          "index": 145778,
+          "type": "Sternal anterior rotator MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "800962",
+          "index": 145030,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "801761",
+          "index": 145639,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "802521",
+          "index": 146196,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "818996",
+          "index": 158713,
+          "type": "Sternal posterior rotator MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_T2_right",
+      "positive": [
+        {
+          "id": "802864",
+          "index": 146450,
+          "type": "Sternotrochanter MN"
+        },
+        {
+          "id": "856359",
+          "index": 160392,
+          "type": "Sternotrochanter MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "806204",
+          "index": 149138,
+          "type": "Tergotr. MN"
+        }
+      ]
+    },
+    {
+      "actuator": "femur_T2_right",
+      "positive": [
+        {
+          "id": "814942",
+          "index": 156236,
+          "type": "Tr extensor MN"
+        },
+        {
+          "id": "840530",
+          "index": 160266,
+          "type": "Tr extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "801057",
+          "index": 145098,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "801058",
+          "index": 145099,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "817681",
+          "index": 158061,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "819203",
+          "index": 158795,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "824315",
+          "index": 159767,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "910095",
+          "index": 163114,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "924142",
+          "index": 164148,
+          "type": "Tr flexor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "tibia_T2_right",
+      "positive": [
+        {
+          "id": "830514",
+          "index": 160113,
+          "type": "Ti extensor MN"
+        },
+        {
+          "id": "928579",
+          "index": 164268,
+          "type": "Ti extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "804405",
+          "index": 147669,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "805010",
+          "index": 148159,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "816222",
+          "index": 157152,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "822013",
+          "index": 159511,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "903363",
+          "index": 160933,
+          "type": "Ti flexor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_abduct_T3_left",
+      "positive": [
+        {
+          "id": "800175",
+          "index": 144454,
+          "type": "Pleural remotor/abductor MN"
+        },
+        {
+          "id": "902310",
+          "index": 160602,
+          "type": "Pleural remotor/abductor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "904184",
+          "index": 161250,
+          "type": "Sternal adductor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_twist_T3_left",
+      "positive": [
+        {
+          "id": "801548",
+          "index": 145481,
+          "type": "Sternal anterior rotator MN"
+        },
+        {
+          "id": "802215",
+          "index": 145971,
+          "type": "Sternal anterior rotator MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "801492",
+          "index": 145433,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "801715",
+          "index": 145603,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "802964",
+          "index": 146529,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "818399",
+          "index": 158437,
+          "type": "Sternal posterior rotator MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_T3_left",
+      "positive": [
+        {
+          "id": "800504",
+          "index": 144692,
+          "type": "Sternotrochanter MN"
+        },
+        {
+          "id": "800851",
+          "index": 144953,
+          "type": "Sternotrochanter MN"
+        },
+        {
+          "id": "828978",
+          "index": 160043,
+          "type": "Sternotrochanter MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "804514",
+          "index": 147765,
+          "type": "Tergotr. MN"
+        }
+      ]
+    },
+    {
+      "actuator": "femur_T3_left",
+      "positive": [
+        {
+          "id": "840981",
+          "index": 160276,
+          "type": "Tr extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "1050194310",
+          "index": 166240,
+          "type": "Tr flexor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "tibia_T3_left",
+      "positive": [
+        {
+          "id": "800621",
+          "index": 144784,
+          "type": "Ti extensor MN"
+        },
+        {
+          "id": "812953",
+          "index": 154688,
+          "type": "Ti extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "803147",
+          "index": 146674,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "804919",
+          "index": 148088,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "819112",
+          "index": 158760,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "822945",
+          "index": 159635,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "908762",
+          "index": 162649,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "929376",
+          "index": 164294,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "1050088257",
+          "index": 166202,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "1050100010",
+          "index": 166206,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "1050166426",
+          "index": 166229,
+          "type": "Ti flexor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_abduct_T3_right",
+      "positive": [
+        {
+          "id": "800290",
+          "index": 144531,
+          "type": "Pleural remotor/abductor MN"
+        },
+        {
+          "id": "800553",
+          "index": 144732,
+          "type": "Pleural remotor/abductor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "807854",
+          "index": 150530,
+          "type": "Sternal adductor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_twist_T3_right",
+      "positive": [
+        {
+          "id": "800316",
+          "index": 144552,
+          "type": "Sternal anterior rotator MN"
+        },
+        {
+          "id": "906235",
+          "index": 161917,
+          "type": "Sternal anterior rotator MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "903642",
+          "index": 161062,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "903643",
+          "index": 161063,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "907256",
+          "index": 162141,
+          "type": "Sternal posterior rotator MN"
+        },
+        {
+          "id": "1050493413",
+          "index": 166291,
+          "type": "Sternal posterior rotator MN"
+        }
+      ]
+    },
+    {
+      "actuator": "coxa_T3_right",
+      "positive": [
+        {
+          "id": "801090",
+          "index": 145121,
+          "type": "Sternotrochanter MN"
+        },
+        {
+          "id": "801148",
+          "index": 145167,
+          "type": "Sternotrochanter MN"
+        },
+        {
+          "id": "801375",
+          "index": 145347,
+          "type": "Sternotrochanter MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "905849",
+          "index": 161799,
+          "type": "Tergotr. MN"
+        }
+      ]
+    },
+    {
+      "actuator": "femur_T3_right",
+      "positive": [
+        {
+          "id": "808453",
+          "index": 151024,
+          "type": "Tr extensor MN"
+        },
+        {
+          "id": "905661",
+          "index": 161739,
+          "type": "Tr extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "801721",
+          "index": 145608,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "807640",
+          "index": 150349,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "905928",
+          "index": 161833,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "1050098047",
+          "index": 166205,
+          "type": "Tr flexor MN"
+        },
+        {
+          "id": "1050938258",
+          "index": 166333,
+          "type": "Tr flexor MN"
+        }
+      ]
+    },
+    {
+      "actuator": "tibia_T3_right",
+      "positive": [
+        {
+          "id": "800158",
+          "index": 144443,
+          "type": "Ti extensor MN"
+        },
+        {
+          "id": "809935",
+          "index": 152271,
+          "type": "Ti extensor MN"
+        }
+      ],
+      "negative": [
+        {
+          "id": "803072",
+          "index": 146615,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "808685",
+          "index": 151224,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "823665",
+          "index": 159708,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "827968",
+          "index": 159992,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "840740",
+          "index": 160270,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "910178",
+          "index": 163138,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "1050013311",
+          "index": 166187,
+          "type": "Ti flexor MN"
+        },
+        {
+          "id": "1050303231",
+          "index": 166265,
+          "type": "Ti flexor MN"
+        }
+      ]
+    }
+  ],
+  "sensory": [
+    {
+      "name": "T1_left_-1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "802287",
+          "index": 146019,
+          "type": "SNpp17"
+        },
+        {
+          "id": "810452",
+          "index": 152690,
+          "type": "SNpp17"
+        },
+        {
+          "id": "815569",
+          "index": 156678,
+          "type": "SNpp39"
+        },
+        {
+          "id": "815843",
+          "index": 156885,
+          "type": "SNpp51"
+        },
+        {
+          "id": "816004",
+          "index": 156999,
+          "type": "SNpp18"
+        },
+        {
+          "id": "816434",
+          "index": 157289,
+          "type": "SNpp17"
+        },
+        {
+          "id": "817298",
+          "index": 157814,
+          "type": "SNpp41"
+        },
+        {
+          "id": "817350",
+          "index": 157848,
+          "type": "SNpp18"
+        },
+        {
+          "id": "817564",
+          "index": 157990,
+          "type": "SNpp17"
+        },
+        {
+          "id": "817680",
+          "index": 158060,
+          "type": "SNpp51"
+        },
+        {
+          "id": "817839",
+          "index": 158156,
+          "type": "SNpp57"
+        },
+        {
+          "id": "821279",
+          "index": 159399,
+          "type": "SNpp22"
+        },
+        {
+          "id": "822497",
+          "index": 159579,
+          "type": "SNpp18"
+        },
+        {
+          "id": "823972",
+          "index": 159735,
+          "type": "SNpp22"
+        },
+        {
+          "id": "902320",
+          "index": 160609,
+          "type": "SNpp18"
+        },
+        {
+          "id": "902324",
+          "index": 160611,
+          "type": "SNpp43"
+        },
+        {
+          "id": "902351",
+          "index": 160622,
+          "type": "SNpp17"
+        },
+        {
+          "id": "902352",
+          "index": 160623,
+          "type": "SNpp17"
+        },
+        {
+          "id": "902353",
+          "index": 160624,
+          "type": "SNpp17"
+        },
+        {
+          "id": "902357",
+          "index": 160625,
+          "type": "SNpp18"
+        },
+        {
+          "id": "902359",
+          "index": 160626,
+          "type": "SNpp60"
+        },
+        {
+          "id": "902397",
+          "index": 160629,
+          "type": "SNpp18"
+        },
+        {
+          "id": "902402",
+          "index": 160630,
+          "type": "SNpp18"
+        }
+      ]
+    },
+    {
+      "name": "T1_left_1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "902403",
+          "index": 160631,
+          "type": "SNpp18"
+        },
+        {
+          "id": "903843",
+          "index": 161122,
+          "type": "SNpp39"
+        },
+        {
+          "id": "905037",
+          "index": 161502,
+          "type": "SNpp40"
+        },
+        {
+          "id": "905158",
+          "index": 161562,
+          "type": "SNpp17"
+        },
+        {
+          "id": "905335",
+          "index": 161637,
+          "type": "SNpp40"
+        },
+        {
+          "id": "905339",
+          "index": 161639,
+          "type": "SNpp59"
+        },
+        {
+          "id": "905340",
+          "index": 161640,
+          "type": "SNpp59"
+        },
+        {
+          "id": "906290",
+          "index": 161931,
+          "type": "SNpp47"
+        },
+        {
+          "id": "906558",
+          "index": 162032,
+          "type": "SNpp47"
+        },
+        {
+          "id": "906823",
+          "index": 162087,
+          "type": "SNpp43"
+        },
+        {
+          "id": "907697",
+          "index": 162274,
+          "type": "SNpp17"
+        },
+        {
+          "id": "908013",
+          "index": 162374,
+          "type": "SNpp18"
+        },
+        {
+          "id": "910285",
+          "index": 163160,
+          "type": "SNpp17"
+        },
+        {
+          "id": "911316",
+          "index": 163415,
+          "type": "SNpp60"
+        },
+        {
+          "id": "912181",
+          "index": 163603,
+          "type": "SNpp17"
+        },
+        {
+          "id": "912317",
+          "index": 163644,
+          "type": "SNpp50"
+        },
+        {
+          "id": "913067",
+          "index": 163763,
+          "type": "SNpp18"
+        },
+        {
+          "id": "914116",
+          "index": 163857,
+          "type": "SNpp60"
+        },
+        {
+          "id": "914370",
+          "index": 163877,
+          "type": "SNpp17"
+        },
+        {
+          "id": "935383",
+          "index": 164516,
+          "type": "SNpp51"
+        },
+        {
+          "id": "935541",
+          "index": 164529,
+          "type": "SNpp39"
+        },
+        {
+          "id": "1060570389",
+          "index": 166548,
+          "type": "SNpp18"
+        }
+      ]
+    },
+    {
+      "name": "T1_right_-1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "816782",
+          "index": 157503,
+          "type": "SNpp39"
+        },
+        {
+          "id": "817154",
+          "index": 157725,
+          "type": "SNpp41"
+        },
+        {
+          "id": "817245",
+          "index": 157780,
+          "type": "SNpp39"
+        },
+        {
+          "id": "817825",
+          "index": 158144,
+          "type": "SNpp57"
+        },
+        {
+          "id": "819291",
+          "index": 158827,
+          "type": "SNpp18"
+        },
+        {
+          "id": "820181",
+          "index": 159131,
+          "type": "SNpp18"
+        },
+        {
+          "id": "821938",
+          "index": 159506,
+          "type": "SNpp18"
+        },
+        {
+          "id": "825792",
+          "index": 159880,
+          "type": "None"
+        },
+        {
+          "id": "826042",
+          "index": 159897,
+          "type": "SNpp47"
+        }
+      ]
+    },
+    {
+      "name": "T1_right_1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "829606",
+          "index": 160069,
+          "type": "SNpp18"
+        },
+        {
+          "id": "833439",
+          "index": 160193,
+          "type": "SNpp39"
+        },
+        {
+          "id": "834000",
+          "index": 160200,
+          "type": "SNpp18"
+        },
+        {
+          "id": "905668",
+          "index": 161743,
+          "type": "SNpp39"
+        },
+        {
+          "id": "909271",
+          "index": 162864,
+          "type": "SNpp18"
+        },
+        {
+          "id": "912365",
+          "index": 163662,
+          "type": "SNpp47"
+        },
+        {
+          "id": "913052",
+          "index": 163761,
+          "type": "SNpp51"
+        },
+        {
+          "id": "933556",
+          "index": 164436,
+          "type": "SNpp39"
+        },
+        {
+          "id": "1060484465",
+          "index": 166545,
+          "type": "SNpp18"
+        }
+      ]
+    },
+    {
+      "name": "T2_left_-1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "807595",
+          "index": 150313,
+          "type": "SNpp40"
+        },
+        {
+          "id": "807785",
+          "index": 150473,
+          "type": "SNpp51"
+        },
+        {
+          "id": "807860",
+          "index": 150535,
+          "type": "SNpp40"
+        },
+        {
+          "id": "807931",
+          "index": 150595,
+          "type": "SNpp51"
+        },
+        {
+          "id": "807970",
+          "index": 150632,
+          "type": "SNpp41"
+        },
+        {
+          "id": "808077",
+          "index": 150723,
+          "type": "SNpp50"
+        },
+        {
+          "id": "808491",
+          "index": 151054,
+          "type": "SNpp50"
+        },
+        {
+          "id": "808512",
+          "index": 151072,
+          "type": "SNpp58"
+        },
+        {
+          "id": "808757",
+          "index": 151286,
+          "type": "SNpp39"
+        },
+        {
+          "id": "808822",
+          "index": 151344,
+          "type": "SNpp43"
+        },
+        {
+          "id": "808826",
+          "index": 151347,
+          "type": "SNpp50"
+        },
+        {
+          "id": "809102",
+          "index": 151566,
+          "type": "SNpp41"
+        },
+        {
+          "id": "809230",
+          "index": 151678,
+          "type": "SNpp50"
+        },
+        {
+          "id": "809250",
+          "index": 151695,
+          "type": "SNpp39"
+        },
+        {
+          "id": "809398",
+          "index": 151810,
+          "type": "SNpp39"
+        },
+        {
+          "id": "809476",
+          "index": 151880,
+          "type": "SNpp50"
+        },
+        {
+          "id": "809976",
+          "index": 152302,
+          "type": "SNpp47"
+        },
+        {
+          "id": "810085",
+          "index": 152396,
+          "type": "SNpp43"
+        },
+        {
+          "id": "811112",
+          "index": 153221,
+          "type": "SNpp50"
+        },
+        {
+          "id": "811348",
+          "index": 153400,
+          "type": "SNpp50"
+        },
+        {
+          "id": "811608",
+          "index": 153603,
+          "type": "SNpp51"
+        },
+        {
+          "id": "811889",
+          "index": 153826,
+          "type": "SNpp49"
+        },
+        {
+          "id": "812705",
+          "index": 154493,
+          "type": "SNpp60"
+        },
+        {
+          "id": "812744",
+          "index": 154529,
+          "type": "SNpp58"
+        },
+        {
+          "id": "812951",
+          "index": 154686,
+          "type": "SNpp60"
+        },
+        {
+          "id": "813009",
+          "index": 154735,
+          "type": "SNpp60"
+        },
+        {
+          "id": "813126",
+          "index": 154823,
+          "type": "SNpp60"
+        },
+        {
+          "id": "813349",
+          "index": 154995,
+          "type": "SNpp60"
+        },
+        {
+          "id": "813500",
+          "index": 155119,
+          "type": "SNpp48"
+        },
+        {
+          "id": "813850",
+          "index": 155400,
+          "type": "SNpp49"
+        },
+        {
+          "id": "814251",
+          "index": 155713,
+          "type": "SNpp47"
+        },
+        {
+          "id": "814335",
+          "index": 155785,
+          "type": "SNpp44"
+        },
+        {
+          "id": "814612",
+          "index": 155991,
+          "type": "SNpp60"
+        },
+        {
+          "id": "814775",
+          "index": 156112,
+          "type": "SNpp58"
+        },
+        {
+          "id": "814905",
+          "index": 156207,
+          "type": "SNpp39"
+        },
+        {
+          "id": "814949",
+          "index": 156243,
+          "type": "SNpp50"
+        },
+        {
+          "id": "815325",
+          "index": 156508,
+          "type": "SNpp47"
+        },
+        {
+          "id": "817150",
+          "index": 157724,
+          "type": "SNpp50"
+        }
+      ]
+    },
+    {
+      "name": "T2_left_1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "817792",
+          "index": 158124,
+          "type": "SNpp43"
+        },
+        {
+          "id": "817992",
+          "index": 158242,
+          "type": "SNpp51"
+        },
+        {
+          "id": "817993",
+          "index": 158243,
+          "type": "SNpp40"
+        },
+        {
+          "id": "819193",
+          "index": 158791,
+          "type": "SNpp58"
+        },
+        {
+          "id": "819619",
+          "index": 158965,
+          "type": "SNpp47"
+        },
+        {
+          "id": "819822",
+          "index": 159026,
+          "type": "SNpp50"
+        },
+        {
+          "id": "821654",
+          "index": 159462,
+          "type": "SNpp47"
+        },
+        {
+          "id": "822336",
+          "index": 159559,
+          "type": "SNpp47"
+        },
+        {
+          "id": "824332",
+          "index": 159769,
+          "type": "SNpp60"
+        },
+        {
+          "id": "824431",
+          "index": 159775,
+          "type": "SNpp51"
+        },
+        {
+          "id": "828811",
+          "index": 160032,
+          "type": "SNpp51"
+        },
+        {
+          "id": "902316",
+          "index": 160606,
+          "type": "SNpp51"
+        },
+        {
+          "id": "904740",
+          "index": 161392,
+          "type": "SNpp43"
+        },
+        {
+          "id": "905218",
+          "index": 161585,
+          "type": "SNpp39"
+        },
+        {
+          "id": "905219",
+          "index": 161586,
+          "type": "SNpp50"
+        },
+        {
+          "id": "905239",
+          "index": 161598,
+          "type": "SNpp47"
+        },
+        {
+          "id": "905242",
+          "index": 161600,
+          "type": "SNpp47"
+        },
+        {
+          "id": "905243",
+          "index": 161601,
+          "type": "SNpp40"
+        },
+        {
+          "id": "906269",
+          "index": 161927,
+          "type": "SNpp47"
+        },
+        {
+          "id": "908146",
+          "index": 162431,
+          "type": "SNpp59"
+        },
+        {
+          "id": "908214",
+          "index": 162456,
+          "type": "SNpp40"
+        },
+        {
+          "id": "908702",
+          "index": 162616,
+          "type": "SNpp50"
+        },
+        {
+          "id": "909477",
+          "index": 162945,
+          "type": "SNpp39"
+        },
+        {
+          "id": "909478",
+          "index": 162946,
+          "type": "SNpp39"
+        },
+        {
+          "id": "910015",
+          "index": 163092,
+          "type": "SNpp40"
+        },
+        {
+          "id": "910446",
+          "index": 163208,
+          "type": "SNpp47"
+        },
+        {
+          "id": "910836",
+          "index": 163322,
+          "type": "SNpp39"
+        },
+        {
+          "id": "911075",
+          "index": 163363,
+          "type": "SNpp47"
+        },
+        {
+          "id": "911942",
+          "index": 163551,
+          "type": "SNpp41"
+        },
+        {
+          "id": "912309",
+          "index": 163640,
+          "type": "SNpp58"
+        },
+        {
+          "id": "912703",
+          "index": 163717,
+          "type": "SNpp56"
+        },
+        {
+          "id": "912704",
+          "index": 163718,
+          "type": "SNpp57"
+        },
+        {
+          "id": "912926",
+          "index": 163751,
+          "type": "SNpp60"
+        },
+        {
+          "id": "936028",
+          "index": 164563,
+          "type": "SNpp50"
+        },
+        {
+          "id": "936168",
+          "index": 164571,
+          "type": "SNpp40"
+        },
+        {
+          "id": "1052290937",
+          "index": 166416,
+          "type": "SNpp57"
+        },
+        {
+          "id": "1053563856",
+          "index": 166449,
+          "type": "SNpp50"
+        },
+        {
+          "id": "1061501467",
+          "index": 166558,
+          "type": "SNpp51"
+        }
+      ]
+    },
+    {
+      "name": "T2_right_-1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "804542",
+          "index": 147786,
+          "type": "SNpp39"
+        },
+        {
+          "id": "805328",
+          "index": 148413,
+          "type": "SNpp43"
+        },
+        {
+          "id": "807064",
+          "index": 149872,
+          "type": "SNpp47"
+        },
+        {
+          "id": "807900",
+          "index": 150569,
+          "type": "SNpp39"
+        },
+        {
+          "id": "807915",
+          "index": 150580,
+          "type": "SNpp40"
+        },
+        {
+          "id": "808016",
+          "index": 150673,
+          "type": "SNpp40"
+        },
+        {
+          "id": "808082",
+          "index": 150728,
+          "type": "SNpp40"
+        },
+        {
+          "id": "808136",
+          "index": 150769,
+          "type": "SNpp40"
+        },
+        {
+          "id": "808463",
+          "index": 151030,
+          "type": "SNpp49"
+        },
+        {
+          "id": "808529",
+          "index": 151087,
+          "type": "SNpp40"
+        },
+        {
+          "id": "808576",
+          "index": 151129,
+          "type": "SNpp41"
+        },
+        {
+          "id": "808697",
+          "index": 151234,
+          "type": "SNpp40"
+        },
+        {
+          "id": "809027",
+          "index": 151510,
+          "type": "SNpp41"
+        },
+        {
+          "id": "809353",
+          "index": 151772,
+          "type": "SNpp41"
+        },
+        {
+          "id": "809904",
+          "index": 152247,
+          "type": "SNpp40"
+        },
+        {
+          "id": "810041",
+          "index": 152361,
+          "type": "SNpp39"
+        },
+        {
+          "id": "810445",
+          "index": 152684,
+          "type": "SNpp39"
+        },
+        {
+          "id": "811313",
+          "index": 153375,
+          "type": "SNpp39"
+        },
+        {
+          "id": "811456",
+          "index": 153484,
+          "type": "SNpp43"
+        },
+        {
+          "id": "811532",
+          "index": 153539,
+          "type": "SNpp49"
+        },
+        {
+          "id": "811919",
+          "index": 153848,
+          "type": "SNpp50"
+        },
+        {
+          "id": "812275",
+          "index": 154133,
+          "type": "SNpp47"
+        },
+        {
+          "id": "813417",
+          "index": 155053,
+          "type": "SNpp58"
+        },
+        {
+          "id": "813516",
+          "index": 155131,
+          "type": "SNpp50"
+        },
+        {
+          "id": "814108",
+          "index": 155593,
+          "type": "SNpp50"
+        },
+        {
+          "id": "814221",
+          "index": 155691,
+          "type": "SNpp56"
+        },
+        {
+          "id": "814297",
+          "index": 155753,
+          "type": "SNpp60"
+        },
+        {
+          "id": "814342",
+          "index": 155789,
+          "type": "SNpp58"
+        },
+        {
+          "id": "814466",
+          "index": 155875,
+          "type": "SNpp57"
+        },
+        {
+          "id": "814699",
+          "index": 156057,
+          "type": "SNpp58"
+        },
+        {
+          "id": "814742",
+          "index": 156089,
+          "type": "SNpp51"
+        },
+        {
+          "id": "815766",
+          "index": 156822,
+          "type": "SNpp57"
+        },
+        {
+          "id": "815798",
+          "index": 156848,
+          "type": "SNpp47"
+        },
+        {
+          "id": "816304",
+          "index": 157204,
+          "type": "SNpp51"
+        },
+        {
+          "id": "816362",
+          "index": 157241,
+          "type": "SNpp41"
+        },
+        {
+          "id": "816665",
+          "index": 157429,
+          "type": "SNpp56"
+        },
+        {
+          "id": "819655",
+          "index": 158980,
+          "type": "SNpp50"
+        },
+        {
+          "id": "820887",
+          "index": 159304,
+          "type": "SNpp41"
+        },
+        {
+          "id": "821240",
+          "index": 159388,
+          "type": "SNpp48"
+        },
+        {
+          "id": "822285",
+          "index": 159550,
+          "type": "SNpp41"
+        }
+      ]
+    },
+    {
+      "name": "T2_right_1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "822321",
+          "index": 159553,
+          "type": "SNpp40"
+        },
+        {
+          "id": "823267",
+          "index": 159678,
+          "type": "SNpp60"
+        },
+        {
+          "id": "823935",
+          "index": 159731,
+          "type": "SNpp51"
+        },
+        {
+          "id": "824367",
+          "index": 159772,
+          "type": "SNpp43"
+        },
+        {
+          "id": "824940",
+          "index": 159816,
+          "type": "SNpp50"
+        },
+        {
+          "id": "825449",
+          "index": 159853,
+          "type": "SNpp47"
+        },
+        {
+          "id": "826386",
+          "index": 159917,
+          "type": "SNpp41"
+        },
+        {
+          "id": "830907",
+          "index": 160130,
+          "type": "SNpp56"
+        },
+        {
+          "id": "832162",
+          "index": 160164,
+          "type": "SNpp50"
+        },
+        {
+          "id": "832415",
+          "index": 160172,
+          "type": "SNpp47"
+        },
+        {
+          "id": "875542",
+          "index": 160465,
+          "type": "SNpp51"
+        },
+        {
+          "id": "902550",
+          "index": 160692,
+          "type": "SNpp60"
+        },
+        {
+          "id": "903831",
+          "index": 161116,
+          "type": "SNpp50"
+        },
+        {
+          "id": "905052",
+          "index": 161514,
+          "type": "SNpp57"
+        },
+        {
+          "id": "905796",
+          "index": 161780,
+          "type": "SNpp47"
+        },
+        {
+          "id": "906018",
+          "index": 161865,
+          "type": "SNpp50"
+        },
+        {
+          "id": "908166",
+          "index": 162438,
+          "type": "SNpp59"
+        },
+        {
+          "id": "908603",
+          "index": 162571,
+          "type": "SNpp51"
+        },
+        {
+          "id": "908773",
+          "index": 162654,
+          "type": "SNpp50"
+        },
+        {
+          "id": "908774",
+          "index": 162655,
+          "type": "SNpp50"
+        },
+        {
+          "id": "909548",
+          "index": 162959,
+          "type": "SNpp39"
+        },
+        {
+          "id": "909549",
+          "index": 162960,
+          "type": "SNpp39"
+        },
+        {
+          "id": "910306",
+          "index": 163167,
+          "type": "SNpp43"
+        },
+        {
+          "id": "910391",
+          "index": 163195,
+          "type": "SNpp56"
+        },
+        {
+          "id": "910632",
+          "index": 163265,
+          "type": "SNpp58"
+        },
+        {
+          "id": "910829",
+          "index": 163319,
+          "type": "SNpp60"
+        },
+        {
+          "id": "910830",
+          "index": 163320,
+          "type": "SNpp47"
+        },
+        {
+          "id": "911307",
+          "index": 163412,
+          "type": "SNpp51"
+        },
+        {
+          "id": "911780",
+          "index": 163515,
+          "type": "SNpp48"
+        },
+        {
+          "id": "912510",
+          "index": 163688,
+          "type": "SNpp60"
+        },
+        {
+          "id": "913881",
+          "index": 163840,
+          "type": "SNpp44"
+        },
+        {
+          "id": "913882",
+          "index": 163841,
+          "type": "SNpp39"
+        },
+        {
+          "id": "913886",
+          "index": 163843,
+          "type": "SNpp39"
+        },
+        {
+          "id": "913890",
+          "index": 163844,
+          "type": "SNpp60"
+        },
+        {
+          "id": "913891",
+          "index": 163845,
+          "type": "SNpp47"
+        },
+        {
+          "id": "919643",
+          "index": 164059,
+          "type": "SNpp60"
+        },
+        {
+          "id": "933121",
+          "index": 164405,
+          "type": "SNpp50"
+        },
+        {
+          "id": "936031",
+          "index": 164564,
+          "type": "SNpp41"
+        },
+        {
+          "id": "1065618685",
+          "index": 166583,
+          "type": "SNpp47"
+        }
+      ]
+    },
+    {
+      "name": "T3_left_-1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "802350",
+          "index": 146062,
+          "type": "SNpp51"
+        },
+        {
+          "id": "804010",
+          "index": 147353,
+          "type": "SNpp50"
+        },
+        {
+          "id": "806934",
+          "index": 149761,
+          "type": "SNpp40"
+        },
+        {
+          "id": "808015",
+          "index": 150672,
+          "type": "SNpp40"
+        },
+        {
+          "id": "808417",
+          "index": 150998,
+          "type": "SNpp40"
+        },
+        {
+          "id": "808818",
+          "index": 151340,
+          "type": "SNpp50"
+        },
+        {
+          "id": "809932",
+          "index": 152268,
+          "type": "SNpp39"
+        },
+        {
+          "id": "809969",
+          "index": 152295,
+          "type": "SNpp60"
+        },
+        {
+          "id": "810173",
+          "index": 152469,
+          "type": "SNpp48"
+        },
+        {
+          "id": "810526",
+          "index": 152750,
+          "type": "SNpp39"
+        },
+        {
+          "id": "811124",
+          "index": 153230,
+          "type": "SNpp50"
+        },
+        {
+          "id": "811540",
+          "index": 153546,
+          "type": "SNpp58"
+        },
+        {
+          "id": "811959",
+          "index": 153878,
+          "type": "SNpp60"
+        },
+        {
+          "id": "812422",
+          "index": 154255,
+          "type": "SNpp39"
+        },
+        {
+          "id": "812454",
+          "index": 154283,
+          "type": "SNpp47"
+        },
+        {
+          "id": "812610",
+          "index": 154411,
+          "type": "SNpp50"
+        },
+        {
+          "id": "812934",
+          "index": 154671,
+          "type": "SNpp60"
+        },
+        {
+          "id": "812984",
+          "index": 154712,
+          "type": "SNpp47"
+        },
+        {
+          "id": "813450",
+          "index": 155079,
+          "type": "SNpp50"
+        },
+        {
+          "id": "813644",
+          "index": 155229,
+          "type": "SNpp41"
+        },
+        {
+          "id": "813693",
+          "index": 155268,
+          "type": "SNpp58"
+        },
+        {
+          "id": "813911",
+          "index": 155445,
+          "type": "SNpp39"
+        },
+        {
+          "id": "814484",
+          "index": 155887,
+          "type": "SNpp50"
+        },
+        {
+          "id": "814628",
+          "index": 156005,
+          "type": "SNpp41"
+        },
+        {
+          "id": "815423",
+          "index": 156571,
+          "type": "SApp23,SNpp56"
+        },
+        {
+          "id": "815697",
+          "index": 156768,
+          "type": "SNpp48"
+        },
+        {
+          "id": "815926",
+          "index": 156941,
+          "type": "SNpp56"
+        },
+        {
+          "id": "815974",
+          "index": 156975,
+          "type": "SNpp56"
+        },
+        {
+          "id": "816388",
+          "index": 157259,
+          "type": "SNpp39"
+        },
+        {
+          "id": "816498",
+          "index": 157327,
+          "type": "SNpp60"
+        },
+        {
+          "id": "816580",
+          "index": 157377,
+          "type": "SNpp41"
+        },
+        {
+          "id": "816764",
+          "index": 157491,
+          "type": "SNpp42"
+        },
+        {
+          "id": "817112",
+          "index": 157707,
+          "type": "SNpp58"
+        },
+        {
+          "id": "817819",
+          "index": 158140,
+          "type": "SNpp42"
+        },
+        {
+          "id": "817913",
+          "index": 158200,
+          "type": "SNpp60"
+        },
+        {
+          "id": "818186",
+          "index": 158337,
+          "type": "SNpp46"
+        },
+        {
+          "id": "818466",
+          "index": 158470,
+          "type": "SNpp47"
+        },
+        {
+          "id": "818712",
+          "index": 158592,
+          "type": "SNpp48"
+        },
+        {
+          "id": "818714",
+          "index": 158593,
+          "type": "SNpp40"
+        },
+        {
+          "id": "818772",
+          "index": 158625,
+          "type": "SNpp47"
+        },
+        {
+          "id": "818896",
+          "index": 158670,
+          "type": "SNpp42"
+        },
+        {
+          "id": "818960",
+          "index": 158696,
+          "type": "SApp23,SNpp56"
+        },
+        {
+          "id": "819005",
+          "index": 158718,
+          "type": "SNpp47"
+        },
+        {
+          "id": "819219",
+          "index": 158803,
+          "type": "SNpp50"
+        },
+        {
+          "id": "819410",
+          "index": 158872,
+          "type": "SNpp42"
+        }
+      ]
+    },
+    {
+      "name": "T3_left_1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "819500",
+          "index": 158911,
+          "type": "SNpp50"
+        },
+        {
+          "id": "819633",
+          "index": 158970,
+          "type": "SNpp50"
+        },
+        {
+          "id": "819645",
+          "index": 158974,
+          "type": "SApp23,SNpp56"
+        },
+        {
+          "id": "820328",
+          "index": 159166,
+          "type": "SNpp50"
+        },
+        {
+          "id": "820681",
+          "index": 159253,
+          "type": "SNpp60"
+        },
+        {
+          "id": "821947",
+          "index": 159507,
+          "type": "SNpp51"
+        },
+        {
+          "id": "824254",
+          "index": 159762,
+          "type": "SNpp43"
+        },
+        {
+          "id": "825749",
+          "index": 159878,
+          "type": "SNpp47"
+        },
+        {
+          "id": "826324",
+          "index": 159913,
+          "type": "SNpp51"
+        },
+        {
+          "id": "827773",
+          "index": 159984,
+          "type": "SNpp42"
+        },
+        {
+          "id": "828667",
+          "index": 160026,
+          "type": "SNpp59"
+        },
+        {
+          "id": "828868",
+          "index": 160035,
+          "type": "SNpp43"
+        },
+        {
+          "id": "829386",
+          "index": 160056,
+          "type": "SNpp42"
+        },
+        {
+          "id": "830558",
+          "index": 160114,
+          "type": "SNpp60"
+        },
+        {
+          "id": "846679",
+          "index": 160325,
+          "type": "SNpp56"
+        },
+        {
+          "id": "903209",
+          "index": 160886,
+          "type": "SNpp39"
+        },
+        {
+          "id": "903377",
+          "index": 160936,
+          "type": "SNpp50"
+        },
+        {
+          "id": "903986",
+          "index": 161158,
+          "type": "SNpp60"
+        },
+        {
+          "id": "908529",
+          "index": 162548,
+          "type": "SNpp60"
+        },
+        {
+          "id": "908533",
+          "index": 162549,
+          "type": "SNpp40"
+        },
+        {
+          "id": "908534",
+          "index": 162550,
+          "type": "SNpp43"
+        },
+        {
+          "id": "908535",
+          "index": 162551,
+          "type": "SNpp40"
+        },
+        {
+          "id": "908723",
+          "index": 162627,
+          "type": "SNpp50"
+        },
+        {
+          "id": "908804",
+          "index": 162663,
+          "type": "SNpp42"
+        },
+        {
+          "id": "908806",
+          "index": 162664,
+          "type": "SNpp57"
+        },
+        {
+          "id": "908816",
+          "index": 162665,
+          "type": "SNpp42"
+        },
+        {
+          "id": "909035",
+          "index": 162754,
+          "type": "SNpp50"
+        },
+        {
+          "id": "909036",
+          "index": 162755,
+          "type": "SNpp50"
+        },
+        {
+          "id": "909240",
+          "index": 162847,
+          "type": "SNpp50"
+        },
+        {
+          "id": "910401",
+          "index": 163197,
+          "type": "SNpp60"
+        },
+        {
+          "id": "910406",
+          "index": 163199,
+          "type": "SNpp51"
+        },
+        {
+          "id": "910408",
+          "index": 163200,
+          "type": "SNpp50"
+        },
+        {
+          "id": "910413",
+          "index": 163201,
+          "type": "SNpp39"
+        },
+        {
+          "id": "910819",
+          "index": 163316,
+          "type": "SNpp47"
+        },
+        {
+          "id": "912852",
+          "index": 163741,
+          "type": "SNpp42"
+        },
+        {
+          "id": "932861",
+          "index": 164395,
+          "type": "SNpp57"
+        },
+        {
+          "id": "933250",
+          "index": 164415,
+          "type": "SNpp60"
+        },
+        {
+          "id": "936408",
+          "index": 164585,
+          "type": "SNpp47"
+        },
+        {
+          "id": "936785",
+          "index": 164625,
+          "type": "SNpp43"
+        },
+        {
+          "id": "937492",
+          "index": 164636,
+          "type": "SNpp42"
+        },
+        {
+          "id": "939462",
+          "index": 164647,
+          "type": "SNpp50"
+        },
+        {
+          "id": "942680",
+          "index": 164788,
+          "type": "SNpp60"
+        },
+        {
+          "id": "1058841949",
+          "index": 166533,
+          "type": "SNpp50"
+        },
+        {
+          "id": "1066481166",
+          "index": 166587,
+          "type": "SNpp44"
+        }
+      ]
+    },
+    {
+      "name": "T3_right_-1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "804744",
+          "index": 147946,
+          "type": "SNpp40"
+        },
+        {
+          "id": "805712",
+          "index": 148736,
+          "type": "SNpp51"
+        },
+        {
+          "id": "806491",
+          "index": 149378,
+          "type": "SNpp51"
+        },
+        {
+          "id": "806526",
+          "index": 149410,
+          "type": "SNpp42"
+        },
+        {
+          "id": "806695",
+          "index": 149556,
+          "type": "SNpp40"
+        },
+        {
+          "id": "806859",
+          "index": 149697,
+          "type": "SNpp51"
+        },
+        {
+          "id": "807459",
+          "index": 150199,
+          "type": "SNpp40"
+        },
+        {
+          "id": "807805",
+          "index": 150491,
+          "type": "SNpp48"
+        },
+        {
+          "id": "808592",
+          "index": 151143,
+          "type": "SNpp50"
+        },
+        {
+          "id": "808807",
+          "index": 151329,
+          "type": "SNpp58"
+        },
+        {
+          "id": "808991",
+          "index": 151479,
+          "type": "SNpp48"
+        },
+        {
+          "id": "809120",
+          "index": 151582,
+          "type": "SNpp43"
+        },
+        {
+          "id": "809278",
+          "index": 151717,
+          "type": "SNpp39"
+        },
+        {
+          "id": "809375",
+          "index": 151788,
+          "type": "SNpp40"
+        },
+        {
+          "id": "809595",
+          "index": 151987,
+          "type": "SNpp50"
+        },
+        {
+          "id": "810187",
+          "index": 152478,
+          "type": "SNpp39"
+        },
+        {
+          "id": "810234",
+          "index": 152515,
+          "type": "SNpp43"
+        },
+        {
+          "id": "810643",
+          "index": 152842,
+          "type": "SNpp50"
+        },
+        {
+          "id": "810683",
+          "index": 152874,
+          "type": "SNpp50"
+        },
+        {
+          "id": "810800",
+          "index": 152964,
+          "type": "SNpp51"
+        },
+        {
+          "id": "810876",
+          "index": 153026,
+          "type": "SNpp60"
+        },
+        {
+          "id": "810980",
+          "index": 153112,
+          "type": "SNpp60"
+        },
+        {
+          "id": "811189",
+          "index": 153283,
+          "type": "SNpp44"
+        },
+        {
+          "id": "811266",
+          "index": 153339,
+          "type": "SNpp47"
+        },
+        {
+          "id": "811516",
+          "index": 153528,
+          "type": "SNpp40"
+        },
+        {
+          "id": "811643",
+          "index": 153631,
+          "type": "SNpp60"
+        },
+        {
+          "id": "811808",
+          "index": 153761,
+          "type": "SNpp58"
+        },
+        {
+          "id": "811841",
+          "index": 153788,
+          "type": "SNpp58"
+        },
+        {
+          "id": "811918",
+          "index": 153847,
+          "type": "SNpp60"
+        },
+        {
+          "id": "811967",
+          "index": 153884,
+          "type": "SNpp58"
+        },
+        {
+          "id": "812049",
+          "index": 153948,
+          "type": "SNpp48"
+        },
+        {
+          "id": "812117",
+          "index": 154005,
+          "type": "SNpp60"
+        },
+        {
+          "id": "812228",
+          "index": 154099,
+          "type": "SNpp41"
+        },
+        {
+          "id": "812527",
+          "index": 154347,
+          "type": "SNpp51"
+        },
+        {
+          "id": "812659",
+          "index": 154453,
+          "type": "SNpp60"
+        },
+        {
+          "id": "812848",
+          "index": 154603,
+          "type": "SNpp39"
+        },
+        {
+          "id": "812869",
+          "index": 154620,
+          "type": "SNpp50"
+        },
+        {
+          "id": "812871",
+          "index": 154621,
+          "type": "SNpp60"
+        },
+        {
+          "id": "812928",
+          "index": 154665,
+          "type": "SNpp50"
+        },
+        {
+          "id": "813011",
+          "index": 154737,
+          "type": "SNpp50"
+        },
+        {
+          "id": "813147",
+          "index": 154841,
+          "type": "SNpp41"
+        },
+        {
+          "id": "813172",
+          "index": 154858,
+          "type": "SNpp47"
+        },
+        {
+          "id": "813185",
+          "index": 154867,
+          "type": "SNpp60"
+        },
+        {
+          "id": "813286",
+          "index": 154940,
+          "type": "SNpp50"
+        },
+        {
+          "id": "814486",
+          "index": 155889,
+          "type": "SApp23,SNpp56"
+        },
+        {
+          "id": "814658",
+          "index": 156025,
+          "type": "SNpp40"
+        },
+        {
+          "id": "814806",
+          "index": 156136,
+          "type": "SNpp57"
+        },
+        {
+          "id": "814843",
+          "index": 156161,
+          "type": "SNpp57"
+        }
+      ]
+    },
+    {
+      "name": "T3_right_1",
+      "kind": "leg",
+      "neurons": [
+        {
+          "id": "814881",
+          "index": 156188,
+          "type": "SNpp39"
+        },
+        {
+          "id": "815497",
+          "index": 156626,
+          "type": "SApp23,SNpp56"
+        },
+        {
+          "id": "815864",
+          "index": 156901,
+          "type": "SNpp56"
+        },
+        {
+          "id": "815949",
+          "index": 156957,
+          "type": "SNpp47"
+        },
+        {
+          "id": "816536",
+          "index": 157350,
+          "type": "SNpp46"
+        },
+        {
+          "id": "817331",
+          "index": 157838,
+          "type": "SNpp47"
+        },
+        {
+          "id": "817356",
+          "index": 157853,
+          "type": "SNpp44"
+        },
+        {
+          "id": "817657",
+          "index": 158047,
+          "type": "SNpp42"
+        },
+        {
+          "id": "818182",
+          "index": 158333,
+          "type": "SNpp42"
+        },
+        {
+          "id": "818362",
+          "index": 158420,
+          "type": "SNpp42"
+        },
+        {
+          "id": "818478",
+          "index": 158478,
+          "type": "SNpp50"
+        },
+        {
+          "id": "818930",
+          "index": 158683,
+          "type": "SNpp51"
+        },
+        {
+          "id": "818992",
+          "index": 158711,
+          "type": "SNpp60"
+        },
+        {
+          "id": "819134",
+          "index": 158766,
+          "type": "SNpp42"
+        },
+        {
+          "id": "819524",
+          "index": 158924,
+          "type": "SNpp41"
+        },
+        {
+          "id": "819559",
+          "index": 158943,
+          "type": "SNpp41"
+        },
+        {
+          "id": "819951",
+          "index": 159066,
+          "type": "SNpp42"
+        },
+        {
+          "id": "820818",
+          "index": 159289,
+          "type": "SNpp43"
+        },
+        {
+          "id": "820903",
+          "index": 159308,
+          "type": "SNpp42"
+        },
+        {
+          "id": "821363",
+          "index": 159417,
+          "type": "SNpp50"
+        },
+        {
+          "id": "821461",
+          "index": 159432,
+          "type": "SNpp47"
+        },
+        {
+          "id": "822523",
+          "index": 159585,
+          "type": "SNpp51"
+        },
+        {
+          "id": "822975",
+          "index": 159638,
+          "type": "SNpp51"
+        },
+        {
+          "id": "823347",
+          "index": 159685,
+          "type": "SNpp39"
+        },
+        {
+          "id": "824107",
+          "index": 159746,
+          "type": "SNpp41"
+        },
+        {
+          "id": "828434",
+          "index": 160012,
+          "type": "SNpp50"
+        },
+        {
+          "id": "847034",
+          "index": 160327,
+          "type": "SNpp50"
+        },
+        {
+          "id": "855317",
+          "index": 160383,
+          "type": "SNpp42"
+        },
+        {
+          "id": "903471",
+          "index": 160984,
+          "type": "SNpp50"
+        },
+        {
+          "id": "903726",
+          "index": 161085,
+          "type": "SNpp42"
+        },
+        {
+          "id": "905526",
+          "index": 161688,
+          "type": "SNpp60"
+        },
+        {
+          "id": "905633",
+          "index": 161733,
+          "type": "SNpp57"
+        },
+        {
+          "id": "907742",
+          "index": 162283,
+          "type": "SNpp39"
+        },
+        {
+          "id": "907744",
+          "index": 162285,
+          "type": "SNpp39"
+        },
+        {
+          "id": "908277",
+          "index": 162478,
+          "type": "SNpp50"
+        },
+        {
+          "id": "908278",
+          "index": 162479,
+          "type": "SNpp50"
+        },
+        {
+          "id": "908862",
+          "index": 162679,
+          "type": "SNpp40"
+        },
+        {
+          "id": "909318",
+          "index": 162872,
+          "type": "SNpp60"
+        },
+        {
+          "id": "909379",
+          "index": 162901,
+          "type": "SNpp48"
+        },
+        {
+          "id": "909726",
+          "index": 163015,
+          "type": "SNpp47"
+        },
+        {
+          "id": "909836",
+          "index": 163058,
+          "type": "SApp23,SNpp56"
+        },
+        {
+          "id": "910042",
+          "index": 163105,
+          "type": "SNpp47"
+        },
+        {
+          "id": "912413",
+          "index": 163673,
+          "type": "SNpp43"
+        },
+        {
+          "id": "912444",
+          "index": 163678,
+          "type": "SNpp50"
+        },
+        {
+          "id": "914543",
+          "index": 163898,
+          "type": "SNpp50"
+        },
+        {
+          "id": "915047",
+          "index": 163946,
+          "type": "SNpp42"
+        },
+        {
+          "id": "932315",
+          "index": 164373,
+          "type": "SNpp59"
+        },
+        {
+          "id": "936153",
+          "index": 164570,
+          "type": "SNpp47"
+        }
+      ]
+    },
+    {
+      "name": "angular_L",
+      "kind": "angular",
+      "neurons": [
+        {
+          "id": "29495",
+          "index": 17568,
+          "type": "None"
+        },
+        {
+          "id": "56694",
+          "index": 41300,
+          "type": "SApp"
+        },
+        {
+          "id": "84556",
+          "index": 63984,
+          "type": "SApp"
+        },
+        {
+          "id": "93068",
+          "index": 70406,
+          "type": "SApp"
+        },
+        {
+          "id": "99240",
+          "index": 74970,
+          "type": "SApp"
+        },
+        {
+          "id": "106132",
+          "index": 80017,
+          "type": "SApp"
+        },
+        {
+          "id": "109214",
+          "index": 82229,
+          "type": "SApp"
+        },
+        {
+          "id": "117027",
+          "index": 87705,
+          "type": "SApp"
+        },
+        {
+          "id": "119228",
+          "index": 89231,
+          "type": "SApp"
+        },
+        {
+          "id": "124505",
+          "index": 92697,
+          "type": "SApp"
+        },
+        {
+          "id": "128834",
+          "index": 95380,
+          "type": "SApp"
+        },
+        {
+          "id": "132009",
+          "index": 97334,
+          "type": "SApp"
+        },
+        {
+          "id": "134187",
+          "index": 98616,
+          "type": "SApp"
+        },
+        {
+          "id": "136454",
+          "index": 99832,
+          "type": "SApp"
+        },
+        {
+          "id": "136883",
+          "index": 100063,
+          "type": "SApp"
+        },
+        {
+          "id": "138625",
+          "index": 100999,
+          "type": "SApp"
+        },
+        {
+          "id": "141508",
+          "index": 102438,
+          "type": "SApp"
+        },
+        {
+          "id": "145821",
+          "index": 104549,
+          "type": "SApp"
+        },
+        {
+          "id": "146224",
+          "index": 104733,
+          "type": "SApp"
+        },
+        {
+          "id": "146824",
+          "index": 105009,
+          "type": "SApp"
+        },
+        {
+          "id": "147170",
+          "index": 105170,
+          "type": "SApp"
+        },
+        {
+          "id": "147266",
+          "index": 105213,
+          "type": "SApp"
+        },
+        {
+          "id": "147493",
+          "index": 105309,
+          "type": "SApp"
+        },
+        {
+          "id": "148634",
+          "index": 105791,
+          "type": "SApp"
+        },
+        {
+          "id": "149456",
+          "index": 106135,
+          "type": "SApp"
+        },
+        {
+          "id": "150265",
+          "index": 106481,
+          "type": "SApp"
+        },
+        {
+          "id": "151156",
+          "index": 106827,
+          "type": "SApp"
+        },
+        {
+          "id": "153572",
+          "index": 107782,
+          "type": "SApp"
+        },
+        {
+          "id": "156308",
+          "index": 108785,
+          "type": "SApp"
+        },
+        {
+          "id": "159470",
+          "index": 109876,
+          "type": "SApp"
+        },
+        {
+          "id": "160004",
+          "index": 110064,
+          "type": "SApp"
+        },
+        {
+          "id": "161212",
+          "index": 110451,
+          "type": "SApp"
+        },
+        {
+          "id": "165905",
+          "index": 111828,
+          "type": "SApp"
+        },
+        {
+          "id": "168613",
+          "index": 112549,
+          "type": "SApp"
+        },
+        {
+          "id": "170770",
+          "index": 113101,
+          "type": "SApp"
+        },
+        {
+          "id": "172332",
+          "index": 113469,
+          "type": "SApp"
+        },
+        {
+          "id": "179610",
+          "index": 115118,
+          "type": "SApp"
+        },
+        {
+          "id": "184894",
+          "index": 116179,
+          "type": "SApp"
+        },
+        {
+          "id": "193940",
+          "index": 117887,
+          "type": "SApp"
+        },
+        {
+          "id": "200867",
+          "index": 119065,
+          "type": "SApp"
+        },
+        {
+          "id": "206485",
+          "index": 119872,
+          "type": "SApp"
+        },
+        {
+          "id": "212840",
+          "index": 120699,
+          "type": "SApp"
+        },
+        {
+          "id": "215306",
+          "index": 121005,
+          "type": "SApp"
+        },
+        {
+          "id": "250927",
+          "index": 123265,
+          "type": "SApp"
+        },
+        {
+          "id": "254178",
+          "index": 123374,
+          "type": "SApp"
+        },
+        {
+          "id": "255915",
+          "index": 123419,
+          "type": "SApp"
+        },
+        {
+          "id": "258572",
+          "index": 123489,
+          "type": "SApp"
+        },
+        {
+          "id": "258686",
+          "index": 123493,
+          "type": "SApp"
+        },
+        {
+          "id": "261128",
+          "index": 123564,
+          "type": "SApp"
+        },
+        {
+          "id": "280007",
+          "index": 123956,
+          "type": "SApp"
+        },
+        {
+          "id": "282841",
+          "index": 124011,
+          "type": "SApp"
+        },
+        {
+          "id": "287217",
+          "index": 124089,
+          "type": "SApp"
+        },
+        {
+          "id": "293667",
+          "index": 124183,
+          "type": "SApp"
+        },
+        {
+          "id": "356694",
+          "index": 124826,
+          "type": "SApp"
+        },
+        {
+          "id": "403537",
+          "index": 125104,
+          "type": "SApp"
+        },
+        {
+          "id": "495250",
+          "index": 125479,
+          "type": "SApp"
+        },
+        {
+          "id": "807074",
+          "index": 149881,
+          "type": "SApp"
+        },
+        {
+          "id": "807758",
+          "index": 150450,
+          "type": "SApp"
+        },
+        {
+          "id": "808502",
+          "index": 151064,
+          "type": "SApp"
+        },
+        {
+          "id": "810577",
+          "index": 152791,
+          "type": "SApp"
+        },
+        {
+          "id": "812596",
+          "index": 154403,
+          "type": "SApp"
+        },
+        {
+          "id": "813734",
+          "index": 155308,
+          "type": "SApp"
+        },
+        {
+          "id": "815986",
+          "index": 156984,
+          "type": "SApp"
+        },
+        {
+          "id": "816074",
+          "index": 157046,
+          "type": "SApp"
+        },
+        {
+          "id": "816625",
+          "index": 157405,
+          "type": "SApp"
+        },
+        {
+          "id": "816971",
+          "index": 157624,
+          "type": "SApp"
+        },
+        {
+          "id": "817091",
+          "index": 157694,
+          "type": "SApp"
+        },
+        {
+          "id": "817316",
+          "index": 157829,
+          "type": "SApp"
+        },
+        {
+          "id": "817462",
+          "index": 157925,
+          "type": "SApp"
+        },
+        {
+          "id": "819678",
+          "index": 158990,
+          "type": "SApp"
+        },
+        {
+          "id": "819835",
+          "index": 159029,
+          "type": "SApp"
+        },
+        {
+          "id": "129575132",
+          "index": 165106,
+          "type": "SApp"
+        },
+        {
+          "id": "175249442",
+          "index": 165189,
+          "type": "SApp"
+        },
+        {
+          "id": "303754631",
+          "index": 165350,
+          "type": "SApp"
+        },
+        {
+          "id": "319464846",
+          "index": 165376,
+          "type": "SApp"
+        },
+        {
+          "id": "759238041",
+          "index": 165841,
+          "type": "SApp"
+        }
+      ]
+    },
+    {
+      "name": "beat_L",
+      "kind": "beat",
+      "neurons": [
+        {
+          "id": "25108",
+          "index": 13664,
+          "type": "JO-A2"
+        },
+        {
+          "id": "29561",
+          "index": 17632,
+          "type": "JO-A2"
+        },
+        {
+          "id": "35351",
+          "index": 22727,
+          "type": "JO-A1"
+        },
+        {
+          "id": "42619",
+          "index": 29154,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "46071",
+          "index": 32181,
+          "type": "JO-A2"
+        },
+        {
+          "id": "54078",
+          "index": 39084,
+          "type": "JO-A2"
+        },
+        {
+          "id": "56087",
+          "index": 40796,
+          "type": "JO-B1_c"
+        },
+        {
+          "id": "79498",
+          "index": 59935,
+          "type": "JO-B1_c"
+        },
+        {
+          "id": "79679",
+          "index": 60075,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "80565",
+          "index": 60782,
+          "type": "JO-A1"
+        },
+        {
+          "id": "82361",
+          "index": 62226,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "97027",
+          "index": 73361,
+          "type": "JO-B1_c"
+        },
+        {
+          "id": "97354",
+          "index": 73615,
+          "type": "JO-CA2"
+        },
+        {
+          "id": "106702",
+          "index": 80415,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "111277",
+          "index": 83697,
+          "type": "JO-B3"
+        },
+        {
+          "id": "116906",
+          "index": 87624,
+          "type": "JO-CA2"
+        },
+        {
+          "id": "117756",
+          "index": 88221,
+          "type": "JO-B1_c"
+        },
+        {
+          "id": "121617",
+          "index": 90796,
+          "type": "JO-B1_c"
+        },
+        {
+          "id": "123650",
+          "index": 92152,
+          "type": "JO-B3"
+        },
+        {
+          "id": "150421",
+          "index": 106545,
+          "type": "JO-B1_b"
+        },
+        {
+          "id": "153859",
+          "index": 107895,
+          "type": "JO-B1_b"
+        },
+        {
+          "id": "158576",
+          "index": 109573,
+          "type": "JO-B1_b"
+        },
+        {
+          "id": "171008",
+          "index": 113161,
+          "type": "JO-CA1"
+        },
+        {
+          "id": "205974",
+          "index": 119812,
+          "type": "JO-B1_b"
+        },
+        {
+          "id": "210416",
+          "index": 120391,
+          "type": "JO-B1_c"
+        },
+        {
+          "id": "213985",
+          "index": 120827,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "225878",
+          "index": 122005,
+          "type": "JO-CA2"
+        },
+        {
+          "id": "232880",
+          "index": 122466,
+          "type": "JO-A1"
+        },
+        {
+          "id": "233170",
+          "index": 122487,
+          "type": "JO-B3"
+        },
+        {
+          "id": "261211",
+          "index": 123566,
+          "type": "JO-CA1"
+        },
+        {
+          "id": "274169",
+          "index": 123853,
+          "type": "JO-B1_b"
+        },
+        {
+          "id": "378122",
+          "index": 124957,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "387990",
+          "index": 125020,
+          "type": "JO-A1"
+        },
+        {
+          "id": "391272",
+          "index": 125036,
+          "type": "JO-CA2"
+        },
+        {
+          "id": "403791",
+          "index": 125105,
+          "type": "JO-B1_c"
+        },
+        {
+          "id": "478230",
+          "index": 125425,
+          "type": "JO-B1_c"
+        },
+        {
+          "id": "480695",
+          "index": 125431,
+          "type": "JO-unclear"
+        },
+        {
+          "id": "491190",
+          "index": 125468,
+          "type": "JO-A2"
+        },
+        {
+          "id": "512975",
+          "index": 126408,
+          "type": "JO-A3"
+        },
+        {
+          "id": "513113",
+          "index": 126463,
+          "type": "JO-CA2"
+        },
+        {
+          "id": "519875",
+          "index": 130414,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "520189",
+          "index": 130602,
+          "type": "JO-A3"
+        },
+        {
+          "id": "521628",
+          "index": 131336,
+          "type": "JO-A2"
+        },
+        {
+          "id": "522305",
+          "index": 131463,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "522306",
+          "index": 131464,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "534437",
+          "index": 136458,
+          "type": "JO-B1_b"
+        },
+        {
+          "id": "547920",
+          "index": 140701,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "552035",
+          "index": 141942,
+          "type": "JO-A2"
+        },
+        {
+          "id": "556393",
+          "index": 142554,
+          "type": "JO-unclear"
+        },
+        {
+          "id": "559386",
+          "index": 142911,
+          "type": "JO-B1_c"
+        },
+        {
+          "id": "919061",
+          "index": 164033,
+          "type": "JO-A2"
+        },
+        {
+          "id": "922950",
+          "index": 164125,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "928361",
+          "index": 164263,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "928855",
+          "index": 164275,
+          "type": "JO-A2"
+        },
+        {
+          "id": "930760",
+          "index": 164345,
+          "type": "JO-A2"
+        },
+        {
+          "id": "943463",
+          "index": 164807,
+          "type": "JO-B1_b"
+        },
+        {
+          "id": "944699",
+          "index": 164825,
+          "type": "JO-CA2"
+        },
+        {
+          "id": "957696",
+          "index": 164997,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "469098413",
+          "index": 165534,
+          "type": "JO-A4"
+        },
+        {
+          "id": "684296256",
+          "index": 165758,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "750369552",
+          "index": 165832,
+          "type": "JO-B3"
+        },
+        {
+          "id": "846271510",
+          "index": 165951,
+          "type": "JO-A2"
+        }
+      ]
+    },
+    {
+      "name": "angular_R",
+      "kind": "angular",
+      "neurons": [
+        {
+          "id": "57589",
+          "index": 42049,
+          "type": "SApp"
+        },
+        {
+          "id": "71393",
+          "index": 53443,
+          "type": "SApp"
+        },
+        {
+          "id": "71760",
+          "index": 53738,
+          "type": "SApp"
+        },
+        {
+          "id": "75573",
+          "index": 56801,
+          "type": "SApp"
+        },
+        {
+          "id": "78117",
+          "index": 58842,
+          "type": "SApp"
+        },
+        {
+          "id": "80766",
+          "index": 60931,
+          "type": "SApp"
+        },
+        {
+          "id": "93838",
+          "index": 70990,
+          "type": "SApp"
+        },
+        {
+          "id": "95011",
+          "index": 71876,
+          "type": "SApp"
+        },
+        {
+          "id": "96040",
+          "index": 72646,
+          "type": "SApp"
+        },
+        {
+          "id": "96068",
+          "index": 72665,
+          "type": "SApp"
+        },
+        {
+          "id": "99217",
+          "index": 74951,
+          "type": "SApp"
+        },
+        {
+          "id": "99350",
+          "index": 75053,
+          "type": "SApp"
+        },
+        {
+          "id": "101048",
+          "index": 76315,
+          "type": "SApp"
+        },
+        {
+          "id": "104481",
+          "index": 78806,
+          "type": "SApp"
+        },
+        {
+          "id": "107137",
+          "index": 80715,
+          "type": "SApp"
+        },
+        {
+          "id": "108339",
+          "index": 81589,
+          "type": "SApp"
+        },
+        {
+          "id": "110353",
+          "index": 83042,
+          "type": "SApp"
+        },
+        {
+          "id": "110525",
+          "index": 83170,
+          "type": "SApp"
+        },
+        {
+          "id": "111052",
+          "index": 83543,
+          "type": "SApp"
+        },
+        {
+          "id": "111859",
+          "index": 84117,
+          "type": "SApp"
+        },
+        {
+          "id": "112349",
+          "index": 84477,
+          "type": "SApp"
+        },
+        {
+          "id": "115809",
+          "index": 86882,
+          "type": "SApp"
+        },
+        {
+          "id": "118236",
+          "index": 88560,
+          "type": "SApp"
+        },
+        {
+          "id": "121271",
+          "index": 90565,
+          "type": "SApp"
+        },
+        {
+          "id": "122413",
+          "index": 91343,
+          "type": "SApp"
+        },
+        {
+          "id": "123524",
+          "index": 92069,
+          "type": "SApp"
+        },
+        {
+          "id": "125890",
+          "index": 93572,
+          "type": "SApp"
+        },
+        {
+          "id": "129205",
+          "index": 95612,
+          "type": "SApp"
+        },
+        {
+          "id": "134546",
+          "index": 98815,
+          "type": "SApp"
+        },
+        {
+          "id": "135347",
+          "index": 99244,
+          "type": "SApp"
+        },
+        {
+          "id": "138205",
+          "index": 100763,
+          "type": "SApp"
+        },
+        {
+          "id": "138981",
+          "index": 101189,
+          "type": "SApp"
+        },
+        {
+          "id": "139218",
+          "index": 101311,
+          "type": "SApp"
+        },
+        {
+          "id": "139538",
+          "index": 101452,
+          "type": "SApp"
+        },
+        {
+          "id": "140838",
+          "index": 102133,
+          "type": "SApp"
+        },
+        {
+          "id": "145433",
+          "index": 104369,
+          "type": "SApp"
+        },
+        {
+          "id": "149586",
+          "index": 106197,
+          "type": "SApp"
+        },
+        {
+          "id": "150303",
+          "index": 106497,
+          "type": "SApp"
+        },
+        {
+          "id": "158563",
+          "index": 109569,
+          "type": "SApp"
+        },
+        {
+          "id": "160875",
+          "index": 110340,
+          "type": "SApp"
+        },
+        {
+          "id": "166044",
+          "index": 111868,
+          "type": "SApp"
+        },
+        {
+          "id": "168542",
+          "index": 112533,
+          "type": "SApp"
+        },
+        {
+          "id": "173256",
+          "index": 113699,
+          "type": "SApp"
+        },
+        {
+          "id": "178495",
+          "index": 114889,
+          "type": "SApp"
+        },
+        {
+          "id": "188368",
+          "index": 116831,
+          "type": "SApp"
+        },
+        {
+          "id": "191517",
+          "index": 117430,
+          "type": "SApp"
+        },
+        {
+          "id": "232250",
+          "index": 122431,
+          "type": "SApp"
+        },
+        {
+          "id": "249650",
+          "index": 123223,
+          "type": "SApp"
+        },
+        {
+          "id": "251962",
+          "index": 123298,
+          "type": "SApp"
+        },
+        {
+          "id": "281933",
+          "index": 123986,
+          "type": "SApp"
+        },
+        {
+          "id": "282750",
+          "index": 124007,
+          "type": "SApp"
+        },
+        {
+          "id": "296168",
+          "index": 124215,
+          "type": "SApp"
+        },
+        {
+          "id": "296698",
+          "index": 124221,
+          "type": "SApp"
+        },
+        {
+          "id": "321904",
+          "index": 124528,
+          "type": "SApp"
+        },
+        {
+          "id": "338575",
+          "index": 124674,
+          "type": "SApp"
+        },
+        {
+          "id": "343341",
+          "index": 124720,
+          "type": "SApp"
+        },
+        {
+          "id": "363069",
+          "index": 124871,
+          "type": "SApp"
+        },
+        {
+          "id": "427343",
+          "index": 125227,
+          "type": "SApp"
+        },
+        {
+          "id": "469267",
+          "index": 125397,
+          "type": "SApp"
+        },
+        {
+          "id": "811943",
+          "index": 153867,
+          "type": "SApp"
+        },
+        {
+          "id": "812914",
+          "index": 154654,
+          "type": "SApp"
+        },
+        {
+          "id": "813714",
+          "index": 155289,
+          "type": "SApp"
+        },
+        {
+          "id": "816063",
+          "index": 157039,
+          "type": "SApp"
+        },
+        {
+          "id": "818292",
+          "index": 158384,
+          "type": "SApp"
+        },
+        {
+          "id": "818414",
+          "index": 158443,
+          "type": "SApp"
+        },
+        {
+          "id": "818610",
+          "index": 158547,
+          "type": "SApp"
+        },
+        {
+          "id": "910090",
+          "index": 163112,
+          "type": "SApp"
+        },
+        {
+          "id": "118074272",
+          "index": 165071,
+          "type": "SApp"
+        },
+        {
+          "id": "165036608",
+          "index": 165174,
+          "type": "SApp"
+        },
+        {
+          "id": "442398895",
+          "index": 165508,
+          "type": "SApp"
+        },
+        {
+          "id": "565883073",
+          "index": 165638,
+          "type": "SApp"
+        },
+        {
+          "id": "835497339",
+          "index": 165931,
+          "type": "SApp"
+        },
+        {
+          "id": "1020257299",
+          "index": 166161,
+          "type": "SApp"
+        }
+      ]
+    },
+    {
+      "name": "beat_R",
+      "kind": "beat",
+      "neurons": [
+        {
+          "id": "126498",
+          "index": 93959,
+          "type": "JO-A1"
+        },
+        {
+          "id": "210305",
+          "index": 120380,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "214264",
+          "index": 120863,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "227318",
+          "index": 122109,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "248488",
+          "index": 123182,
+          "type": "JO-B2"
+        },
+        {
+          "id": "270708",
+          "index": 123773,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "308087",
+          "index": 124388,
+          "type": "JO-A1"
+        },
+        {
+          "id": "331280",
+          "index": 124617,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "363793",
+          "index": 124879,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "381870",
+          "index": 124983,
+          "type": "JO-B1_b"
+        },
+        {
+          "id": "398883",
+          "index": 125085,
+          "type": "JO-A1"
+        },
+        {
+          "id": "427762",
+          "index": 125229,
+          "type": "JO-A2"
+        },
+        {
+          "id": "432109",
+          "index": 125255,
+          "type": "JO-unclear"
+        },
+        {
+          "id": "435445",
+          "index": 125275,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "496138",
+          "index": 125484,
+          "type": "JO-B1_b"
+        },
+        {
+          "id": "535965",
+          "index": 137086,
+          "type": "JO-B2"
+        },
+        {
+          "id": "932780",
+          "index": 164386,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "934247",
+          "index": 164455,
+          "type": "JO-A1"
+        },
+        {
+          "id": "953758",
+          "index": 164918,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "107969133",
+          "index": 165042,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "130272750",
+          "index": 165107,
+          "type": "JO-A2"
+        },
+        {
+          "id": "138093763",
+          "index": 165123,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "191222213",
+          "index": 165212,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "225531498",
+          "index": 165259,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "289189116",
+          "index": 165337,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "344928887",
+          "index": 165404,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "360761964",
+          "index": 165427,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "367193015",
+          "index": 165432,
+          "type": "JO-A4"
+        },
+        {
+          "id": "381438645",
+          "index": 165446,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "428888752",
+          "index": 165496,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "433689529",
+          "index": 165500,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "445096818",
+          "index": 165513,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "450901253",
+          "index": 165515,
+          "type": "JO-B1_b"
+        },
+        {
+          "id": "545758258",
+          "index": 165618,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "550485938",
+          "index": 165624,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "595981074",
+          "index": 165666,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "634015490",
+          "index": 165702,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "648663099",
+          "index": 165722,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "665341618",
+          "index": 165735,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "686335472",
+          "index": 165762,
+          "type": "JO-unclear"
+        },
+        {
+          "id": "696659928",
+          "index": 165776,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "698835546",
+          "index": 165780,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "724236497",
+          "index": 165807,
+          "type": "JO-B1_a"
+        },
+        {
+          "id": "837235731",
+          "index": 165935,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "863522732",
+          "index": 165964,
+          "type": "JO-B1_b"
+        },
+        {
+          "id": "897664547",
+          "index": 166005,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "939224751",
+          "index": 166055,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "963561242",
+          "index": 166079,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "986835763",
+          "index": 166105,
+          "type": "JO-B-unclear"
+        },
+        {
+          "id": "1001037799",
+          "index": 166126,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "1018999243",
+          "index": 166158,
+          "type": "JO-A-unclear"
+        },
+        {
+          "id": "1026240572",
+          "index": 166168,
+          "type": "JO-B-unclear"
+        }
+      ]
+    }
+  ],
+  "descending_observers": [
+    {
+      "name": "DNg100_L",
+      "neurons": [
+        {
+          "id": "10045",
+          "index": 36,
+          "type": "DNg100"
+        }
+      ]
+    },
+    {
+      "name": "DNg100_R",
+      "neurons": [
+        {
+          "id": "10056",
+          "index": 46,
+          "type": "DNg100"
+        }
+      ]
+    },
+    {
+      "name": "DNa02_L",
+      "neurons": [
+        {
+          "id": "523769",
+          "index": 131957,
+          "type": "DNa02"
+        }
+      ]
+    },
+    {
+      "name": "DNa02_R",
+      "neurons": [
+        {
+          "id": "10360",
+          "index": 332,
+          "type": "DNa02"
+        }
+      ]
+    },
+    {
+      "name": "DNg13_L",
+      "neurons": [
+        {
+          "id": "11074",
+          "index": 993,
+          "type": "DNg13"
+        }
+      ]
+    },
+    {
+      "name": "DNg13_R",
+      "neurons": [
+        {
+          "id": "512006",
+          "index": 125880,
+          "type": "DNg13"
+        }
+      ]
+    }
+  ]
+}

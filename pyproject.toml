@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=80.9"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gangnamfly"
+version = "0.1.0"
+description = "MaleCNS connectome plasticity connected to anatomical Flybody physics"
+requires-python = ">=3.11,<3.12"
+dependencies = ["numpy==1.26.4", "numba==0.61.2", "mujoco==3.3.7", "pandas==2.2.3", "pyarrow==23.0.1", "scipy==1.14.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.12", "mypy>=1.15", "pip-audit>=2.9", "build>=1.2", "playwright>=1.52"]
+
+[tool.setuptools.packages.find]
+include = ["gangnamfly*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: requires verified full connectome and Flybody assets"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.mypy]
+files = ["gangnamfly"]
+ignore_missing_imports = true
+follow_imports = "silent"
+check_untyped_defs = true

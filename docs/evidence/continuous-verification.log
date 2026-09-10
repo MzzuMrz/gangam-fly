@@ -1,0 +1,1 @@
+{"passed": true, "ticks": 50, "episode": "20260910T011138-d6978218", "comparison": "exact qpos/qvel/ctrl/motor spikes/reward/final weights"}

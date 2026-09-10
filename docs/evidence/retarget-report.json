@@ -1,0 +1,12 @@
+{
+  "finite": true,
+  "sample_hz": 60,
+  "duration_exact": true,
+  "time_strict": true,
+  "max_joint_step_radians": 1.8819925183017598,
+  "max_root_step_radians": 0.18060604383465179,
+  "endpoint_residual_max_cm": 0.05310874574443038,
+  "endpoint_residual_rms_cm": 0.009211775025395611,
+  "endpoint_floor_penetration_max_cm": 0.02456947514748195,
+  "interpretation": "Artistic constrained retargeting; kinematic reference does not establish physical feasibility."
+}

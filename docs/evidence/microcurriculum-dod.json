@@ -1,0 +1,25 @@
+{
+  "AC-1": [
+    "tests/test_microcurriculum.py::test_support_reward_is_dense_and_stage_pass_is_not_standing",
+    "tests/test_microcurriculum.py::test_each_deficit_improvement_raises_reward_without_mutating_world"
+  ],
+  "AC-2": [
+    "tests/test_microcurriculum.py::test_stage_constraints_are_monotone_and_use_control_tick_windows",
+    "tests/test_microcurriculum.py::test_short_motion_cannot_pass_from_preamble_alone",
+    "tests/test_training.py::test_curriculum_promotes_atomically_on_frozen_physical_success",
+    "tests/test_microcurriculum.py::test_full_stage_cannot_skip_every_return_to_rest_frame"
+  ],
+  "AC-3": [
+    "tests/test_microcurriculum.py::test_missing_preamble_or_prerequisite_samples_cannot_qualify",
+    "web/tests/training.spec.js::microcurriculum keeps stage list compact and distinguishes standing",
+    "tests/test_verify_objective.py (physical metric and summary tampering rejected)"
+  ],
+  "AC-4": [
+    "tests/test_training.py::test_micro_import_requires_edge_identity_and_keeps_source",
+    "tests/test_runtime.py::test_native_continuous_training_pause_stop_and_evidence"
+  ],
+  "AC-5": [
+    "tests/test_integration.py::test_curriculum_reward_cannot_supply_same_step_motor_commands",
+    "web/tests/training.spec.js::microcurriculum keeps stage list compact and distinguishes standing"
+  ]
+}

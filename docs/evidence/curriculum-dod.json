@@ -1,0 +1,23 @@
+{
+  "AC-1": [
+    "tests/test_curriculum.py::test_standing_is_not_pose_imitation_or_one_good_frame",
+    "tests/test_runtime.py::test_native_continuous_training_pause_stop_and_evidence",
+    "tests/test_integration.py::test_curriculum_reward_cannot_supply_same_step_motor_commands"
+  ],
+  "AC-2": [
+    "tests/test_training.py::test_curriculum_promotes_atomically_on_frozen_physical_success",
+    "tests/test_curriculum.py::test_motion_prefix_and_full_target_keep_prerequisite_and_complete_source"
+  ],
+  "AC-3": [
+    "tests/test_curriculum.py (four physical/window/source-time tests)"
+  ],
+  "AC-4": [
+    "web/tests/training.spec.js::curriculum shows prerequisites and separates stage reward histories",
+    "tests/test_runtime.py::test_native_continuous_training_pause_stop_and_evidence"
+  ],
+  "AC-5": [
+    "tests/test_training.py::test_warm_start_checks_compatibility_and_preserves_legacy",
+    "tests/test_training.py::test_curriculum_promotes_atomically_on_frozen_physical_success",
+    "gangnamfly.verify: episodes/curriculum-proof/20260910T124141-bfd0a0d7 (independent native smoke)"
+  ]
+}
